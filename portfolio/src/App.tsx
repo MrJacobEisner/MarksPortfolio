@@ -1,9 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
-    return <div className="App"></div>;
-}
+import Latest from "./components/Latest/Latest";
+import Hub from "./components/Hub/Hub";
+
+const App = () => {
+    return (
+        <div className="App">
+            <Hub></Hub>
+        </div>
+    );
+};
 
 export default App;
