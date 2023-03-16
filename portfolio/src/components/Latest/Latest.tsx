@@ -38,37 +38,30 @@ const Latest = (LatestProps: LatestProps) => {
     } = { ...defaultProps, ...LatestProps };
     return (
         <div className="Latest">
-            <div className="Latest-Tab">
-                <p>Latest News</p>
-            </div>
-            <div className="Latest-Image-Container">
-                <img
-                    className="Latest-Image"
-                    src={require(`../../assets/${image}`)}
-                    alt=""
-                />
-                <p className="Latest-Image-Credit">
-                    {creditName} /{" "}
-                    <a className="Latest-Image-Credit-Site" href={creditLink}>
-                        {creditWebsite}
-                    </a>
+            <p className="News">Latest News</p>
+            <img
+                className="Image"
+                src={require(`../../assets/${image}`)}
+                alt=""
+            />
+            <div className="Credit">
+                <p>
+                    {creditName} / <a href={creditLink}>{creditWebsite}</a>
                 </p>
             </div>
-            <div className="Latest-Article">
-                <h2 className="Latest-Header">{header}</h2>
-                <div className="Latest-Author">
-                    <img
-                        className="Latest-Author-Image"
-                        src={require(`../../assets/${authorImage}`)}
-                        alt=""
-                    />
-                    <p>
-                        By <a href={authorLink}>{authorName}</a>
-                    </p>
-                </div>
-                <p className="Latest-Body">{content}</p>
+            <h2 className="Latest-Header">{header}</h2>
+            <div className="Author">
+                <img
+                    className="Author-Image"
+                    src={require(`../../assets/${authorImage}`)}
+                    alt=""
+                />
+                <p>
+                    By <a href={authorLink}>{authorName}</a>
+                </p>
             </div>
-            <div className="Latest-ReadMore">
+            <div className="Content">
+                <p>{content}</p>
                 <a href={articleLink}>Read More</a>
             </div>
         </div>

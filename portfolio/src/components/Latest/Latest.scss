@@ -1,51 +1,64 @@
 .Latest {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    width: 350px;
+    height: fit-content;
     display: flex;
+    gap: 5px;
     flex-direction: column;
-    align-items: center;
-    width: 500px;
+    justify-content: center;
+    box-shadow: 0px 0px 47px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 47px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 47px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    h2,
+    a,
     p {
+        margin: 0;
+    }
+    .News {
         font-family: "Lexend";
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
-        color: black;
-        margin-bottom: 0;
+        color: #000000;
+        margin: 0px;
     }
-    h2 {
+    .Image {
+        width: 400px;
+        position: relative;
+        align-self: center;
+    }
+    .Credit {
+        display: flex;
+        margin-left: auto;
+        p,
+        a {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            color: rgba(106, 106, 106, 0.88);
+            text-decoration: none;
+        }
+    }
+    .Latest-Header {
         font-family: "Georgia";
         font-style: italic;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 20px;
         color: #000000;
     }
-    .Latest-Tab {
-        width: 280px;
-        border-radius: 5px 0px 0px 5px;
-        box-shadow: 0px 0px 47px -10px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 0px 0px 47px -10px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 0px 47px -10px rgba(0, 0, 0, 0.75);
-    }
-    .Latest-Image-Container {
-        .Latest-Image {
-            width: 300px;
-            box-shadow: 0px 0px 47px -10px rgba(0, 0, 0, 0.75);
-            -webkit-box-shadow: 0px 0px 47px -10px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0px 0px 47px -10px rgba(0, 0, 0, 0.75);
+    .Author {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        .Author-Image {
+            height: 30px;
+            width: 30px;
+            border-radius: 30px;
+            filter: saturate(0);
         }
-    }
-    .Latest-Article {
-        width: 280px;
-        .Latest-Author {
-            display: flex;
-            flex-direction: row;
-            .Latest-Author-Image {
-                width: 30px;
-                height: 30px;
-                border-radius: 30px;
-                filter: saturate(0);
-            }
-        }
-    }
-    .Latest-ReadMore {
     }
 }

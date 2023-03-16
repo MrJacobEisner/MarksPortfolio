@@ -10,19 +10,19 @@ import Byline from "./components/Byline/Byline";
 const App = () => {
     return (
         <div className="App">
-            <div className="Header">
+            {/* <div className="Header">
                 <Headline></Headline>
-            </div>
+            </div> */}
             <div className="Hero">
                 <Latest
                     image="yang.jpg"
-                    header="This is a header"
+                    header="UCSB out of compliance with state, federal laws for decades; works to return Native remains"
                     content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consectetur rem doloribus asperiores amet magni quasi, unde nostrum eligendi porro!"
                     articleLink="http://poop.com/"
                 ></Latest>
-                <Hub></Hub>
+                {/* <Hub></Hub> */}
             </div>
-            <div className="Stories">
+            {/* <div className="Stories">
                 <Story image="yang.jpg">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Illum necessitatibus ea hic libero fugit minima temporibus
@@ -50,7 +50,7 @@ const App = () => {
                         </li>
                     </ol>
                 </Byline>
-            </div>
+            </div> */}
         </div>
     );
 };
