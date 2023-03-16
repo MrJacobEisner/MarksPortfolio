@@ -1,0 +1,17 @@
+.Hub {
+    width: 1000px;
+    .Hub-Page {
+        display: none;
+    }
+    .Hub-Page-Active {
+        display: block;
+        width: 500px;
+        height: 500px;
+    }
+    button {
+        border: none;
+        p {
+            margin: 0px;
+        }
+    }
+}

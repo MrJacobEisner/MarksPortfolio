@@ -33,10 +33,18 @@ const Hub = () => {
                     <p className="Hub-Tab">About</p>
                 </button>
             </div>
-            <div className={toggleState === 1 ? "Hub Hub-Active" : "Hub"}>
+            <div
+                className={
+                    toggleState === 1 ? "Hub-Page Hub-Page-Active" : "Hub-Page"
+                }
+            >
                 <CustomCarousel images={images} />
             </div>
-            <div className={toggleState === 2 ? "Hub Hub-Active" : "Hub"}>
+            <div
+                className={
+                    toggleState === 2 ? "Hub-Page Hub-Page-Active" : "Hub-Page"
+                }
+            >
                 <div className="Hub-About-Content">
                     <div className="Hub-About-Info">
                         <img className="Hub-Mark" src="" alt="" />
@@ -82,7 +90,11 @@ const Hub = () => {
                     </div>
                 </div>
             </div>
-            <div className={toggleState === 3 ? "Hub Hub-Active" : "Hub"}></div>
+            <div
+                className={
+                    toggleState === 3 ? "Hub-Page Hub-Page-Active" : "Hub-Page"
+                }
+            ></div>
         </div>
     );
 };

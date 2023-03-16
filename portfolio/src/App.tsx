@@ -10,9 +10,9 @@ import Byline from "./components/Byline/Byline";
 const App = () => {
     return (
         <div className="App">
-            {/* <div className="Header">
+            <div className="Header">
                 <Headline></Headline>
-            </div> */}
+            </div>
             <div className="Hero">
                 <Latest
                     image="yang.jpg"
@@ -20,7 +20,7 @@ const App = () => {
                     content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consectetur rem doloribus asperiores amet magni quasi, unde nostrum eligendi porro!"
                     articleLink="http://poop.com/"
                 ></Latest>
-                {/* <Hub></Hub> */}
+                <Hub></Hub>
             </div>
             {/* <div className="Stories">
                 <Story image="yang.jpg">
