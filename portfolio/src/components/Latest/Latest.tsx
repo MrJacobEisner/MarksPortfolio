@@ -38,17 +38,21 @@ const Latest = (LatestProps: LatestProps) => {
     } = { ...defaultProps, ...LatestProps };
     return (
         <div className="Latest">
-            <div className="Latest-Tab"></div>
+            <div className="Latest-Tab">
+                <p>Latest News</p>
+            </div>
             <div className="Latest-Image-Container">
                 <img
                     className="Latest-Image"
                     src={require(`../../assets/${image}`)}
                     alt=""
                 />
-                <p className="Latest-Image-Credit">{creditName} / </p>
-                <a className="Latest-Image-Credit-Site" href={creditLink}>
-                    {creditWebsite}
-                </a>
+                <p className="Latest-Image-Credit">
+                    {creditName} /{" "}
+                    <a className="Latest-Image-Credit-Site" href={creditLink}>
+                        {creditWebsite}
+                    </a>
+                </p>
             </div>
             <div className="Latest-Article">
                 <h2 className="Latest-Header">{header}</h2>
@@ -58,8 +62,9 @@ const Latest = (LatestProps: LatestProps) => {
                         src={require(`../../assets/${authorImage}`)}
                         alt=""
                     />
-                    <p>By</p>
-                    <a href={authorLink}>{authorName}</a>
+                    <p>
+                        By <a href={authorLink}>{authorName}</a>
+                    </p>
                 </div>
                 <p className="Latest-Body">{content}</p>
             </div>

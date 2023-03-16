@@ -1,4 +1,5 @@
 import React from "react";
+import "./Headline.scss";
 
 export default function Headline() {
     const date = new Date();
@@ -21,7 +22,7 @@ export default function Headline() {
                 <p className="Headline-Date">{formattedDate}</p>
             </div>
             <div className="Headline-Blurb">
-                <h2 className="Headline-Blub-Text">
+                <h2 className="Headline-Blurb-Text">
                     News Editor, Photojournalist Now Has Website
                 </h2>
             </div>

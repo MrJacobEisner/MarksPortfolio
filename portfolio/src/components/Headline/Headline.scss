@@ -1,0 +1,48 @@
+.Headline {
+    p {
+        font-family: "Georgia";
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 0px;
+        color: #000000;
+    }
+    h1 {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        color: #000000;
+    }
+    h2 {
+        font-family: "Georgia";
+        font-style: italic;
+        font-weight: 700;
+        font-size: 30px;
+        color: #000000;
+    }
+    .Headline-Name {
+        .Headline-Name-Text {
+        }
+    }
+    .Headline-Decals {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .Headline-Breaking {
+            color: #d12323;
+        }
+        .Headline-Line {
+            width: 10vw;
+            border-bottom: 2px solid rgba(117, 117, 117, 1);
+            margin-bottom: 5px;
+            height: 10px;
+        }
+        .Headline-Date {
+        }
+    }
+    .Headline-Blurb {
+        .Headline-Blurb-Text {
+        }
+    }
+}
