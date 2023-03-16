@@ -15,7 +15,7 @@ const CustomCarousel = (CustomCarouselProps: CustomCarouselProps) => {
     return (
         <Carousel>
             {images.map((image) => (
-                <Carousel.Item>
+                <Carousel.Item interval={10000}>
                     <img
                         className="Carousel-Image"
                         src={require(`../../assets/${image.imageName}`)}
