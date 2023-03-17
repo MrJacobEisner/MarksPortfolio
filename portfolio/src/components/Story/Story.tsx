@@ -4,19 +4,26 @@ import "./Story.scss";
 interface StoryProps {
     image: string;
     creditName?: string;
-    creditLink?: string;
+    link: string;
     children: React.ReactNode;
+    type?: string;
 }
 
 const Story = (StoryProps: StoryProps) => {
-    const { image, creditName, creditLink, children } = StoryProps;
+    const { image, creditName, link, children, type } = StoryProps;
     return (
-        <div
-            className="Story"
-            style={{ backgroundImage: `url(../../assets/${image})` }}
-        >
-            <h2 className="Story-Title">{children}</h2>
-            <a href={creditLink}>{creditName}</a>
+        <div className="Story">
+            <a className="Story" href={link}>
+                <img src={require(`../../assets/${image}`)} alt="" />
+                <div
+                    className={
+                        type === "Low" ? "Story-Text Low" : "Story-Text High"
+                    }
+                >
+                    <h2 className="Story-Title">{children}</h2>
+                    <p>{creditName}</p>
+                </div>
+            </a>
         </div>
     );
 };

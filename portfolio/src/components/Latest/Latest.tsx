@@ -4,8 +4,6 @@ import "./Latest.scss";
 interface LatestProps {
     image: string;
     creditName?: string;
-    creditWebsite?: string;
-    creditLink?: string;
     header: string;
     authorImage?: string;
     authorLink?: string;
@@ -16,8 +14,6 @@ interface LatestProps {
 
 const defaultProps = {
     creditName: "Mark Alfred",
-    creditWebsite: "Daily Nexus",
-    creditLink: "https://dailynexus.com/",
     authorImage: "MarkProfile.jpg",
     authorLink: "https://dailynexus.com/author/markalfred/",
     authorName: "Mark Alfred",
@@ -27,8 +23,6 @@ const Latest = (LatestProps: LatestProps) => {
     const {
         image,
         creditName,
-        creditWebsite,
-        creditLink,
         header,
         authorImage,
         authorLink,
@@ -47,9 +41,7 @@ const Latest = (LatestProps: LatestProps) => {
                 alt=""
             />
             <div className="Credit">
-                <p>
-                    {creditName} / <a href={creditLink}>{creditWebsite}</a>
-                </p>
+                <p>{creditName}</p>
             </div>
             <div className="Snippet">
                 <h2 className="Latest-Header">{header}</h2>

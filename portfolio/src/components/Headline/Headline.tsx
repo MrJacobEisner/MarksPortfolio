@@ -13,7 +13,7 @@ export default function Headline() {
     return (
         <div className="Headline">
             <p className="Disclaimer">
-                Designed by Mark Alfred / Developed by Jacob Eisner
+                Designed by Mark Alfred & Developed by Jacob Eisner
             </p>
             <div className="Title">
                 <p className="Breaking-News">Breaking News:</p>
