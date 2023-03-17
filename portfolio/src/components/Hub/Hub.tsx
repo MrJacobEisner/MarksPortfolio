@@ -17,39 +17,39 @@ const Hub = () => {
     const images: ImageObject[] = [
         {
             imageName: "_MG_0062.JPG",
-            title: "Beatles for Sale - the worst beatles album",
+            title: "Air Force 1",
         },
         {
             imageName: "_MG_0182.JPG",
-            title: "Rubber Soul - the best beatles album",
+            title: "Kamala Harris",
         },
         {
             imageName: "_MG_0717.JPG",
-            title: "Beatles for Sale - the worst beatles album",
+            title: "Speach",
         },
         {
             imageName: "_MG_0880 2.JPG",
-            title: "Rubber Soul - the best beatles album",
+            title: "Second Spech",
         },
         {
             imageName: "_MG_9457.JPG",
-            title: "Rubber Soul - the best beatles album",
+            title: "Launch",
         },
         {
             imageName: "IMG_0554.jpg",
-            title: "Rubber Soul - the best beatles album",
+            title: "Girl",
         },
         {
             imageName: "IMG_9125.jpg",
-            title: "Rubber Soul - the best beatles album",
+            title: "Multiple girls",
         },
         {
             imageName: "Untitled (18).png",
-            title: "Rubber Soul - the best beatles album",
+            title: "Biden",
         },
         {
             imageName: "Untitled (22).png",
-            title: "Rubber Soul - the best beatles album",
+            title: "Biden (Senile)",
         },
         // ...
     ];
@@ -57,14 +57,35 @@ const Hub = () => {
     return (
         <div className="Hub">
             <div className="Hub-TabBar">
-                <button onClick={() => toggleTab(1)}>
+                <button
+                    className={
+                        toggleState === 1
+                            ? "Hub-Button Hub-Button-Active"
+                            : "Hub-Button"
+                    }
+                    onClick={() => toggleTab(1)}
+                >
                     <p className="Hub-Tab">Gallery</p>
                 </button>
-                <button onClick={() => toggleTab(2)}>
-                    <p className="Hub-Tab">Content</p>
-                </button>
-                <button onClick={() => toggleTab(3)}>
+                <button
+                    className={
+                        toggleState === 2
+                            ? "Hub-Button Hub-Button-Active"
+                            : "Hub-Button"
+                    }
+                    onClick={() => toggleTab(2)}
+                >
                     <p className="Hub-Tab">About</p>
+                </button>
+                <button
+                    className={
+                        toggleState === 3
+                            ? "Hub-Button Hub-Button-Active"
+                            : "Hub-Button"
+                    }
+                    onClick={() => toggleTab(3)}
+                >
+                    <p className="Hub-Tab">Contact</p>
                 </button>
             </div>
             <div
@@ -79,8 +100,8 @@ const Hub = () => {
                     toggleState === 2 ? "Hub-Page Hub-Page-Active" : "Hub-Page"
                 }
             >
-                <div className="Hub-About-Content">
-                    <div className="Hub-About-Info">
+                <div className="About">
+                    <div className="Info">
                         <img
                             className="Hub-Mark"
                             src={require(`../../assets/MarkProfile.jpg`)}
@@ -94,7 +115,7 @@ const Hub = () => {
                             Text and Signal: <br /> <b>(858) 413-7384</b>
                         </p>
                     </div>
-                    <div className="Hub-About-Bio">
+                    <div className="Bio">
                         <p>
                             <b>Mark Alfred</b> is an award-winning news editor
                             and photojournalist currently writing for the{" "}
