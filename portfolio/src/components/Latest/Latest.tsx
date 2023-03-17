@@ -62,8 +62,10 @@ const Latest = (LatestProps: LatestProps) => {
             </div>
             <div className="Content">
                 <p>{content}</p>
-                <a href={articleLink}>Read More</a>
             </div>
+            <a className="Read-More" href={articleLink}>
+                Read More
+            </a>
         </div>
     );
 };

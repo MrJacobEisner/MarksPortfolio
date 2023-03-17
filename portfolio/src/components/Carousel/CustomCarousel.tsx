@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
+import "./CustomCarousel.scss";
+
 interface ImageObject {
     imageName: string;
     title: string;
@@ -17,12 +19,14 @@ const CustomCarousel = (CustomCarouselProps: CustomCarouselProps) => {
             {images.map((image) => (
                 <Carousel.Item interval={10000}>
                     <img
-                        className="Carousel-Image"
+                        className="Image"
                         src={require(`../../assets/${image.imageName}`)}
                         alt=""
                     />
                     <Carousel.Caption>
-                        <p className="Carousel-Caption">{image.title}</p>
+                        <div className="Caption-Wrapper">
+                            <p>{image.title} </p>
+                        </div>
                     </Carousel.Caption>
                 </Carousel.Item>
             ))}

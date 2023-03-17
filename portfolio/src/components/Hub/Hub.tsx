@@ -15,8 +15,22 @@ const Hub = () => {
     };
 
     const images: ImageObject[] = [
-        { imageName: "Image1.jpeg", title: "Image 1" },
-        { imageName: "Image2.jpeg", title: "Image 2" },
+        {
+            imageName: "Image1.jpeg",
+            title: "Beatles for Sale - the worst beatles album",
+        },
+        {
+            imageName: "Image2.jpeg",
+            title: "Rubber Soul - the best beatles album",
+        },
+        {
+            imageName: "Image1.jpeg",
+            title: "Beatles for Sale - the worst beatles album",
+        },
+        {
+            imageName: "Image2.jpeg",
+            title: "Rubber Soul - the best beatles album",
+        },
         // ...
     ];
 

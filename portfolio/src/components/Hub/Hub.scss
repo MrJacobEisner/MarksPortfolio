@@ -1,17 +1,30 @@
 .Hub {
-    width: 1000px;
+    width: 700px;
+    height: 600px;
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
     .Hub-Page {
         display: none;
     }
     .Hub-Page-Active {
         display: block;
         width: 500px;
-        height: 500px;
+        height: 561px;
     }
-    button {
-        border: none;
-        p {
-            margin: 0px;
+    .Hub-TabBar {
+        height: 39px;
+        button {
+            border: none;
+            background-color: white;
+            p {
+                font-family: "Lexend";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                color: #000000;
+            }
         }
     }
 }

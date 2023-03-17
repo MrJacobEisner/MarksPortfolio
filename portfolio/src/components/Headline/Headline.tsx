@@ -5,7 +5,6 @@ export default function Headline() {
     const date = new Date();
     const options: Intl.DateTimeFormatOptions = {
         weekday: "long",
-        year: "numeric",
         month: "long",
         day: "numeric",
     };
@@ -13,18 +12,25 @@ export default function Headline() {
 
     return (
         <div className="Headline">
-            <div className="Headline-Name">
-                <h1 className="Headline-Name-Text">Mark Alfred</h1>
+            <p className="Disclaimer">
+                Designed by Mark Alfred / Developed by Jacob Eisner
+            </p>
+            <div className="Title">
+                <p className="Breaking-News">Breaking News:</p>
+                <h1 className="Mark-Alfred">
+                    <span>M</span>ARK <span>A</span>LFRED
+                </h1>
+                <p className="Title-Date">{formattedDate}</p>
             </div>
-            <div className="Headline-Decals">
-                <p className="Headline-Breaking">Breaking</p>
-                <div className="Headline-Line"></div>
-                <p className="Headline-Date">{formattedDate}</p>
-            </div>
-            <div className="Headline-Blurb">
-                <h2 className="Headline-Blurb-Text">
+            <div className="Subtitle">
+                <hr />
+                <h2 className="Subtitle-Text">
                     News Editor, Photojournalist Now Has Website
                 </h2>
+                <h2 className="Subtitle-Text-Mobile">
+                    News Editor, Photojournalist
+                </h2>
+                <hr />
             </div>
         </div>
     );

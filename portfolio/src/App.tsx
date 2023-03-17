@@ -17,7 +17,7 @@ const App = () => {
                 <Latest
                     image="yang.jpg"
                     header="UCSB out of compliance with state, federal laws for decades; works to return Native remains"
-                    content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consectetur rem doloribus asperiores amet magni quasi, unde nostrum eligendi porro!"
+                    content="When the state of California constructs another orbital launch pad for its Space Force Base or a new railway along the coast, it often unearths artifacts and human remains left behind by California’s Indigenous peoples. Since the 1950s, such objects frequently "
                     articleLink="http://poop.com/"
                 ></Latest>
                 <Hub></Hub>

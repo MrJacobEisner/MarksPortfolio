@@ -1,48 +1,115 @@
 .Headline {
-    p {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    .Disclaimer {
+        position: absolute;
+        right: 5px;
+        top: 0px;
         font-family: "Georgia";
         font-style: normal;
-        font-size: 16px;
-        font-weight: 700;
-        margin-bottom: 0px;
-        color: #000000;
+        font-weight: 400;
+        font-size: 12px;
+        color: rgba(106, 106, 106, 0.88);
     }
-    h1 {
-        font-family: "Georgia";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 50px;
-        color: #000000;
-    }
-    h2 {
-        font-family: "Georgia";
-        font-style: italic;
-        font-weight: 700;
-        font-size: 30px;
-        color: #000000;
-    }
-    .Headline-Name {
-        .Headline-Name-Text {
-        }
-    }
-    .Headline-Decals {
+    .Title {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        .Headline-Breaking {
+        height: 60px;
+        span {
+            font-size: 44px;
+        }
+        .Breaking-News {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
             color: #d12323;
+            width: 200px;
+            text-align: left;
+            margin-bottom: 0px;
+            margin-top: auto;
         }
-        .Headline-Line {
-            width: 10vw;
-            border-bottom: 2px solid rgba(117, 117, 117, 1);
-            margin-bottom: 5px;
-            height: 10px;
+        .Mark-Alfred {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 37px;
+            color: #000000;
         }
-        .Headline-Date {
+        .Title-Date {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            text-align: right;
+            color: #000000;
+            width: 200px;
+            text-align: right;
+            margin-bottom: 0px;
+            margin-top: auto;
         }
     }
-    .Headline-Blurb {
-        .Headline-Blurb-Text {
+    .Subtitle {
+        display: grid;
+        grid-template-columns: auto 760px auto;
+        width: 100%;
+        hr {
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+            height: 1.5px;
+        }
+        .Subtitle-Text {
+            font-family: "Georgia";
+            font-style: italic;
+            font-weight: 700;
+            font-size: 29px;
+            line-height: 29px;
+            color: #000000;
+        }
+        .Subtitle-Text-Mobile {
+            display: none;
+        }
+    }
+}
+@media (max-width: 900px) {
+    .Breaking-News,
+    .Title-Date,
+    .Subtitle-Text,
+    .Disclaimer {
+        display: none;
+    }
+    .Headline {
+        .Title {
+            height: 35px;
+            .Mark-Alfred {
+                font-family: "Georgia";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                color: #000000;
+            }
+            span {
+                font-size: 30px;
+            }
+        }
+        .Subtitle {
+            grid-template-columns: auto;
+            hr {
+                display: none;
+            }
+            .Subtitle-Text-Mobile {
+                display: block !important;
+                font-family: "Georgia";
+                font-style: italic;
+                font-weight: 700;
+                font-size: 20px;
+                color: #363636;
+                margin-bottom: 0px;
+            }
         }
     }
 }
