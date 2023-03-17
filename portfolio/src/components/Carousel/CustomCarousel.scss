@@ -1,10 +1,14 @@
 .carousel {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-image: none;
+    }
     width: 700px;
     height: 100%;
     overflow: hidden;
+    border-radius: 0px 0px 5px 5px;
     .Image {
-        width: 700px;
-        margin-top: -50px;
+        height: 560px;
     }
     .carousel-indicators {
         margin: 0px;
@@ -17,13 +21,19 @@
         }
     }
     .carousel-inner {
+        .carousel-item {
+            display: flex;
+            justify-content: center;
+        }
         .carousel-caption {
             position: absolute;
-            top: 501px;
+            top: 500px;
             right: 0%;
             left: 0%;
             .Caption-Wrapper {
-                padding-left: 10px;
+                border-radius: 0px 0px 3px 3px;
+                padding-left: 20px;
+                padding-right: 20px;
                 background-color: white;
                 p {
                     font-family: "Georgia";

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 import "./CustomCarousel.scss";
@@ -15,9 +15,9 @@ interface CustomCarouselProps {
 const CustomCarousel = (CustomCarouselProps: CustomCarouselProps) => {
     const { images } = CustomCarouselProps;
     return (
-        <Carousel>
+        <Carousel fade>
             {images.map((image) => (
-                <Carousel.Item interval={10000}>
+                <Carousel.Item interval={5000}>
                     <img
                         className="Image"
                         src={require(`../../assets/${image.imageName}`)}

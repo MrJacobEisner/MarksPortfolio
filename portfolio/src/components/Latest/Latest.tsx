@@ -38,7 +38,9 @@ const Latest = (LatestProps: LatestProps) => {
     } = { ...defaultProps, ...LatestProps };
     return (
         <div className="Latest">
-            <p className="News">Latest News</p>
+            <div className="Tab">
+                <p className="News">Latest News</p>
+            </div>
             <img
                 className="Image"
                 src={require(`../../assets/${image}`)}
@@ -49,23 +51,25 @@ const Latest = (LatestProps: LatestProps) => {
                     {creditName} / <a href={creditLink}>{creditWebsite}</a>
                 </p>
             </div>
-            <h2 className="Latest-Header">{header}</h2>
-            <div className="Author">
-                <img
-                    className="Author-Image"
-                    src={require(`../../assets/${authorImage}`)}
-                    alt=""
-                />
-                <p>
-                    By <a href={authorLink}>{authorName}</a>
-                </p>
+            <div className="Snippet">
+                <h2 className="Latest-Header">{header}</h2>
+                <div className="Author">
+                    <img
+                        className="Author-Image"
+                        src={require(`../../assets/${authorImage}`)}
+                        alt=""
+                    />
+                    <p>
+                        By <a href={authorLink}>{authorName}</a>
+                    </p>
+                </div>
+                <div className="Content">
+                    <p>{content}</p>
+                </div>
+                <a className="Read-More" href={articleLink}>
+                    Read More
+                </a>
             </div>
-            <div className="Content">
-                <p>{content}</p>
-            </div>
-            <a className="Read-More" href={articleLink}>
-                Read More
-            </a>
         </div>
     );
 };

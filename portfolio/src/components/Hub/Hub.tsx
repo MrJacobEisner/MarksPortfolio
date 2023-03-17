@@ -16,19 +16,39 @@ const Hub = () => {
 
     const images: ImageObject[] = [
         {
-            imageName: "Image1.jpeg",
+            imageName: "_MG_0062.JPG",
             title: "Beatles for Sale - the worst beatles album",
         },
         {
-            imageName: "Image2.jpeg",
+            imageName: "_MG_0182.JPG",
             title: "Rubber Soul - the best beatles album",
         },
         {
-            imageName: "Image1.jpeg",
+            imageName: "_MG_0717.JPG",
             title: "Beatles for Sale - the worst beatles album",
         },
         {
-            imageName: "Image2.jpeg",
+            imageName: "_MG_0880 2.JPG",
+            title: "Rubber Soul - the best beatles album",
+        },
+        {
+            imageName: "_MG_9457.JPG",
+            title: "Rubber Soul - the best beatles album",
+        },
+        {
+            imageName: "IMG_0554.jpg",
+            title: "Rubber Soul - the best beatles album",
+        },
+        {
+            imageName: "IMG_9125.jpg",
+            title: "Rubber Soul - the best beatles album",
+        },
+        {
+            imageName: "Untitled (18).png",
+            title: "Rubber Soul - the best beatles album",
+        },
+        {
+            imageName: "Untitled (22).png",
             title: "Rubber Soul - the best beatles album",
         },
         // ...
@@ -61,7 +81,11 @@ const Hub = () => {
             >
                 <div className="Hub-About-Content">
                     <div className="Hub-About-Info">
-                        <img className="Hub-Mark" src="" alt="" />
+                        <img
+                            className="Hub-Mark"
+                            src={require(`../../assets/MarkProfile.jpg`)}
+                            alt=""
+                        />
                         <p>
                             Reach out at: <br />{" "}
                             <b>Markalfred@dailynexus.com</b>

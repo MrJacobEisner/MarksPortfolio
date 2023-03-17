@@ -11,19 +11,25 @@
     .Hub-Page-Active {
         display: block;
         width: 500px;
-        height: 561px;
+        height: 560px;
     }
     .Hub-TabBar {
-        height: 39px;
+        height: 40px;
+        padding: 0px 20px 0px 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
         button {
             border: none;
             background-color: white;
+            padding: 0px;
             p {
                 font-family: "Lexend";
                 font-style: normal;
                 font-weight: 600;
                 font-size: 16px;
                 color: #000000;
+                margin: 0px;
             }
         }
     }
