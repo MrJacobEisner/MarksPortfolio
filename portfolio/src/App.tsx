@@ -42,14 +42,12 @@ const App = () => {
                 <Story
                     image="yang.jpg"
                     link="https://dailynexus.com/author/markalfred/"
-                    creditName="Eunice Lai / Daily Nexus"
                 >
                     Nexus Uncovers UCSB’s Munger Hall Mockup
                 </Story>
                 <Story
                     image="yang.jpg"
                     link="https://dailynexus.com/author/markalfred/"
-                    creditName="Eunice Lai / Daily Nexus"
                     type="Low"
                 >
                     Nexus Uncovers UCSB’s Munger Hall Mockup
