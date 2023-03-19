@@ -25,78 +25,41 @@ const App = () => {
             </div>
             <div className="Stories">
                 <Story
-                    image="yang.jpg"
+                    image="Untitled (25).png"
                     link="https://dailynexus.com/author/markalfred/"
-                    creditName="Eunice Lai / Daily Nexus"
-                    type="Low"
-                >
-                    Nexus Uncovers UCSB’s Munger Hall Mockup
-                </Story>
+                />
                 <Story
-                    image="yang.jpg"
+                    image="Untitled (26).png"
                     link="https://dailynexus.com/author/markalfred/"
-                    creditName="Eunice Lai / Daily Nexus"
-                >
-                    Nexus Uncovers UCSB’s Munger Hall Mockup
-                </Story>
+                />
                 <Story
-                    image="yang.jpg"
+                    image="Untitled (27).png"
                     link="https://dailynexus.com/author/markalfred/"
-                >
-                    Nexus Uncovers UCSB’s Munger Hall Mockup
-                </Story>
+                />
                 <Story
-                    image="yang.jpg"
+                    image="Untitled (28).png"
                     link="https://dailynexus.com/author/markalfred/"
-                    type="Low"
-                >
-                    Nexus Uncovers UCSB’s Munger Hall Mockup
-                </Story>
+                />
                 <Story
-                    image="yang.jpg"
+                    image="Untitled (29).png"
                     link="https://dailynexus.com/author/markalfred/"
-                    creditName="Eunice Lai / Daily Nexus"
-                >
-                    Nexus Uncovers UCSB’s Munger Hall Mockup
-                </Story>
+                />
                 <Story
-                    image="yang.jpg"
+                    image="Untitled (30).png"
                     link="https://dailynexus.com/author/markalfred/"
-                    creditName="Eunice Lai / Daily Nexus"
-                    type="Low"
-                >
-                    Nexus Uncovers UCSB’s Munger Hall Mockup
-                </Story>
-            </div>
-            {/* <div className="Stories">
-                <Story image="yang.jpg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Illum necessitatibus ea hic libero fugit minima temporibus
-                    sint distinctio quasi impedit.
-                </Story>
+                />
             </div>
             <div className="Bylines">
-                <Byline
-                    logo="logo.png"
-                    header="This is a header"
-                    image="yang.jpg"
-                >
-                    <ol>
-                        <li>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Officia, adipisci?
-                        </li>
-                        <li>
-                            Ea officia impedit perferendis corrupti sunt modi
-                            doloribus eos aliquam.
-                        </li>
-                        <li>
-                            Ad aliquid dolorem doloremque, vero possimus quod
-                            doloribus quasi molestias?
-                        </li>
-                    </ol>
-                </Byline>
-            </div> */}
+                <div className="Title">
+                    <hr />
+                    <h2>Bylines In</h2>
+                    <hr />
+                </div>
+                <div className="Cards">
+                    <Byline image="Untitled (31).png" link="poop.com"></Byline>
+                </div>
+                <hr />
+            </div>
         </div>
     );
 };

@@ -2,34 +2,17 @@ import React from "react";
 import "./Byline.scss";
 
 interface BylineProps {
-    logo: string;
-    header: string;
     image: string;
-    creditName?: string;
-    creditLink?: string;
-    children: React.ReactNode;
+    link: string;
 }
 
 const Byline = (BylineProps: BylineProps) => {
-    const { logo, header, image, creditName, creditLink, children } =
-        BylineProps;
+    const { image, link } = BylineProps;
     return (
         <div className="Byline">
-            <img
-                className="Byline-Logo"
-                src={require(`../../assets/${logo}`)}
-                alt=""
-            />
-            <h2 className="Byline-Header">{header}</h2>
-            <img
-                className="Byline-Image"
-                src={require(`../../assets/${image}`)}
-                alt=""
-            />
-            <a className="Byline-Credit" href={creditLink}>
-                {creditName}
+            <a href={link}>
+                <img src={require(`../../assets/${image}`)} alt="" />
             </a>
-            {children}
         </div>
     );
 };

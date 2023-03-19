@@ -21,10 +21,46 @@
         grid-template-columns: 275px 275px 275px;
         grid-template-rows: 275px 275px;
         grid-gap: 30px;
-        margin-bottom: 70px;
     }
     .Bylines {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        gap: 50px;
+        margin: 50px;
+        justify-content: center;
+        .Title {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            hr {
+                margin: 0px;
+                width: 200px;
+                background-color: rgb(0, 0, 0);
+                height: 1.5px;
+            }
+            h2 {
+                font-family: "Georgia";
+                font-style: italic;
+                font-weight: 700;
+                font-size: 29px;
+                line-height: 29px;
+                color: #000000;
+                margin-bottom: 0px;
+            }
+        }
+        .Cards {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 3%;
+        }
+        hr {
+            width: 300px;
+            margin: 15px auto 15px auto;
+            background-color: rgb(0, 0, 0);
+            height: 1.5px;
+        }
     }
 }
