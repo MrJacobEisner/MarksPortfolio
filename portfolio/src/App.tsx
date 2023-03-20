@@ -105,7 +105,37 @@ const App = () => {
                         image="Frame 27.png"
                         link="https://dailynexus.com/author/markalfred/"
                     />
-                    <div></div>
+                    <div className="Related-Coverage">
+                        <p>
+                            <b>Related Coverage </b>by Mark Alfred
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="poop.com">
+                                    Sustainable University Now to sue UCSB,
+                                    seeking documents related to Munger Hall
+                                </a>
+                            </li>
+                            <li>
+                                <a href="poop.com">
+                                    Munger Hall design change eliminates two
+                                    floors; awaits final approvals{" "}
+                                </a>
+                            </li>
+                            <li>
+                                <a href="poop.com">
+                                    Munger’s massive donation total continues to
+                                    grow
+                                </a>
+                            </li>
+                            <li>
+                                <a href="poop.com">
+                                    Munger Hall Unlikely To Meet 2025 Opening
+                                    Goal
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </Storyline>
                 <Story
                     image="Untitled (28).png"

@@ -68,7 +68,7 @@
         display: grid;
         grid-template-columns: 275px 275px 275px;
         grid-template-rows: 275px 275px 275px 275px 275px;
-        gap: 30px 30px;
+        gap: 30px;
         grid-auto-flow: row;
         grid-template-areas:
             ". . ."
