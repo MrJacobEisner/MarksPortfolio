@@ -63,4 +63,22 @@
             height: 1.5px;
         }
     }
+    .StorylineStories {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 275px 275px 275px;
+        grid-template-rows: 275px 275px 275px 275px 275px;
+        gap: 30px 30px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            ". . ."
+            "Storyline Storyline ."
+            "Storyline Storyline ."
+            "Storyline Storyline ."
+            ". . .";
+    }
+
+    .Storyline {
+        grid-area: Storyline;
+    }
 }

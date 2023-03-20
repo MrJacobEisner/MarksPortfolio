@@ -6,6 +6,7 @@ import Latest from "./components/Latest/Latest";
 import Hub from "./components/Hub/Hub";
 import Story from "./components/Story/Story";
 import Byline from "./components/Byline/Byline";
+import Storyline from "./components/Storyline/Storyline";
 
 const App = () => {
     return (
@@ -56,9 +57,83 @@ const App = () => {
                     <hr />
                 </div>
                 <div className="Cards">
-                    <Byline image="Untitled (31).png" link="poop.com"></Byline>
+                    <Byline image="Frame 13.png" link="poop.com"></Byline>
+                    <Byline image="Frame 14.png" link="poop.com"></Byline>
+                    <Byline image="Frame 15.png" link="poop.com"></Byline>
                 </div>
                 <hr />
+            </div>
+            <div className="StorylineStories">
+                <Story
+                    image="Untitled (28).png"
+                    link="https://dailynexus.com/author/markalfred/"
+                />
+                <Story
+                    image="Untitled (29).png"
+                    link="https://dailynexus.com/author/markalfred/"
+                />
+                <Story
+                    image="Untitled (30).png"
+                    link="https://dailynexus.com/author/markalfred/"
+                />
+                <Storyline
+                    image="https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2023/03/19165937/sam_campus-planning-design_current-projects_munger-hall-hero-image.jpg"
+                    header="Read the award-winning investigative news series into Munger Hall"
+                    credit="Courtesy UC Santa Barbara "
+                    paragraph1="To remedy its student housing shortage, UC Santa Barbara is seeking to construct a massive dormitory that, at the request of a 99-year-old billionaire donor, will feature thousands of windowless student bedrooms."
+                    paragraph2="Investigative reporting into the unpopular project and the traditional housing plans it replaced was named best news series at the 2023 California College Media Association awards."
+                    title="The Investigative Series"
+                    author="Mark Alfred"
+                >
+                    <Story
+                        image="Frame 27.png"
+                        link="https://dailynexus.com/author/markalfred/"
+                    />
+                    <Story
+                        image="Frame 27.png"
+                        link="https://dailynexus.com/author/markalfred/"
+                    />
+                    <Story
+                        image="Frame 27.png"
+                        link="https://dailynexus.com/author/markalfred/"
+                    />
+                    <Story
+                        image="Frame 27.png"
+                        link="https://dailynexus.com/author/markalfred/"
+                    />
+                    <Story
+                        image="Frame 27.png"
+                        link="https://dailynexus.com/author/markalfred/"
+                    />
+                    <Story
+                        image="Frame 27.png"
+                        link="https://dailynexus.com/author/markalfred/"
+                    />
+                </Storyline>
+                <Story
+                    image="Untitled (28).png"
+                    link="https://dailynexus.com/author/markalfred/"
+                />
+                <Story
+                    image="Untitled (29).png"
+                    link="https://dailynexus.com/author/markalfred/"
+                />
+                <Story
+                    image="Untitled (30).png"
+                    link="https://dailynexus.com/author/markalfred/"
+                />
+                <Story
+                    image="Untitled (28).png"
+                    link="https://dailynexus.com/author/markalfred/"
+                />
+                <Story
+                    image="Untitled (29).png"
+                    link="https://dailynexus.com/author/markalfred/"
+                />
+                <Story
+                    image="Untitled (30).png"
+                    link="https://dailynexus.com/author/markalfred/"
+                />
             </div>
         </div>
     );
