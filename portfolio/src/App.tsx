@@ -105,10 +105,7 @@ const App = () => {
                         image="Frame 27.png"
                         link="https://dailynexus.com/author/markalfred/"
                     />
-                    <Story
-                        image="Frame 27.png"
-                        link="https://dailynexus.com/author/markalfred/"
-                    />
+                    <div></div>
                 </Storyline>
                 <Story
                     image="Untitled (28).png"
