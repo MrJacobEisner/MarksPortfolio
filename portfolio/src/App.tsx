@@ -7,6 +7,7 @@ import Hub from "./components/Hub/Hub";
 import Story from "./components/Story/Story";
 import Byline from "./components/Byline/Byline";
 import Storyline from "./components/Storyline/Storyline";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
     return (
@@ -162,6 +163,7 @@ const App = () => {
                     link="https://dailynexus.com/author/markalfred/"
                 />
             </div>
+            <Footer />
         </div>
     );
 };
