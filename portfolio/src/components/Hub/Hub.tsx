@@ -16,40 +16,63 @@ const Hub = () => {
 
     const images: ImageObject[] = [
         {
-            imageName: "_MG_0062.JPG",
-            title: "Hello Hello",
+            imageName:
+                "A biker weaves through protestors at UC Santa Barbara.JPG",
+            title: "A biker weaves through protestors at UC Santa Barbara",
         },
         {
-            imageName: "_MG_0182.JPG",
-            title: "Kamala Harris",
+            imageName:
+                "Congressman Carbajal announces new legislation at UC Santa Barbara.JPG",
+            title: "Congressman Carbajal announces new legislation at UC Santa Barbara",
         },
         {
-            imageName: "_MG_0717.JPG",
-            title: "Speach",
+            imageName:
+                "Decommissioned oil tanks sit at UCSB’s Devereux Slough.JPG",
+            title: "Decommissioned oil tanks sit at UCSB’s Devereux Slough",
         },
         {
-            imageName: "_MG_0880 2.JPG",
-            title: "Second Spech",
+            imageName:
+                "Kristen Stewart is honored at the Santa Barbara International Film Festival.JPG",
+            title: "Kristen Stewart is honored at the Santa Barbara International Film Festival",
         },
         {
-            imageName: "_MG_9457.JPG",
-            title: "Launch",
+            imageName:
+                "NASA’s Orion spacecraft arrives at San Diego after a 1.4 million mile journey around the moon.JPG",
+            title: "NASA’s Orion spacecraft arrives at San Diego after a 1.4 million mile journey around the moon",
         },
         {
-            imageName: "IMG_0554.jpg",
-            title: "Girl",
+            imageName:
+                "Senator Padilla and Congressman Carbajal await the departure of Vice President Harris from Air Force Two.JPG",
+            title: "Senator Padilla and Congressman Carbajal await the departure of Vice President Harris from Air Force Two",
         },
         {
-            imageName: "IMG_9125.jpg",
-            title: "Multiple girls",
+            imageName:
+                "Senator Padilla delivers remarks at Vandenberg Space Force Base.JPG",
+            title: "Senator Padilla delivers remarks at Vandenberg Space Force Base",
         },
         {
-            imageName: "Untitled (18).png",
-            title: "Biden",
+            imageName:
+                "SpaceX’s Falcon 9 rocket launches from Vandenberg Space Force Base.JPG",
+            title: "SpaceX’s Falcon 9 rocket launches from Vandenberg Space Force Base",
         },
         {
-            imageName: "Untitled (22).png",
-            title: "Biden (Senile)",
+            imageName: "UAW union members march for higher wages.JPG",
+            title: "UAW union members march for higher wages",
+        },
+        {
+            imageName:
+                "UC San Diego works to construct a slew of new student residences.JPG",
+            title: "UC San Diego works to construct a slew of new student residences",
+        },
+        {
+            imageName:
+                "UCPD drives across the sidewalk in front of Storke Tower.JPG",
+            title: "UCPD drives across the sidewalk in front of Storke Tower",
+        },
+        {
+            imageName:
+                "Vice President Kamala Harris shoots a smile toward the press pool.JPG",
+            title: "Vice President Kamala Harris shoots a smile toward the press pool",
         },
         // ...
     ];
