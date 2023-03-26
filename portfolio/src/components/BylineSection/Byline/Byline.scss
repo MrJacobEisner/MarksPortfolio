@@ -1,0 +1,23 @@
+.Byline a {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img {
+        height: 100%;
+    }
+}
+@media (max-width: 585px) {
+    .Byline a {
+        width: 280px;
+        height: 400px;
+    }
+}

@@ -37,7 +37,7 @@ const Latest = (LatestProps: LatestProps) => {
             </div>
             <img
                 className="Image"
-                src={require(`../../assets/${image}`)}
+                src={require(`../../assets/latest/${image}`)}
                 alt=""
             />
             <div className="Credit">
@@ -52,13 +52,25 @@ const Latest = (LatestProps: LatestProps) => {
                         alt=""
                     />
                     <p>
-                        By <a href={authorLink}>{authorName}</a>
+                        By{" "}
+                        <a
+                            href={authorLink}
+                            target="_blank"
+                            rel="noreferrer noopener"
+                        >
+                            {authorName}
+                        </a>
                     </p>
                 </div>
                 <div className="Content">
                     <p>{content}</p>
                 </div>
-                <a className="Read-More" href={articleLink}>
+                <a
+                    className="Read-More"
+                    href={articleLink}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
                     Read More
                 </a>
             </div>

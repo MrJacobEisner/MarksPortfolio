@@ -5,9 +5,9 @@ import Headline from "./components/Headline/Headline";
 import Latest from "./components/Latest/Latest";
 import Hub from "./components/Hub/Hub";
 import Story from "./components/Story/Story";
-import Byline from "./components/Byline/Byline";
 import Storyline from "./components/Storyline/Storyline";
 import Footer from "./components/Footer/Footer";
+import BylineSection from "./components/BylineSection/BylineSection";
 
 const App = () => {
     return (
@@ -17,65 +17,55 @@ const App = () => {
             </div>
             <div className="Hero">
                 <Latest
-                    image="yang.jpg"
+                    image="NativeRemains.jpg"
                     creditName="Mark Alfred / Daily Nexus"
                     header="UCSB out of compliance with state, federal laws for decades; works to return Native remains"
                     content="When the state of California constructs another orbital launch pad for its Space Force Base or a new railway along the coast, it often unearths artifacts and human remains left behind by California’s Indigenous peoples. Since the 1950s, such objects frequently "
-                    articleLink="http://poop.com/"
+                    articleLink="https://dailynexus.com/2023-03-02/ucsb-out-of-compliance-with-state-federal-laws-for-decades-works-to-return-native-remains/"
                 ></Latest>
                 <Hub></Hub>
             </div>
             <div className="Stories">
                 <Story
-                    image="Untitled (25).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="AbortionMarch.jpg"
+                    link="https://dailynexus.com/2022-05-04/hundreds-march-for-abortion-rights-in-downtown-santa-barbara-following-supreme-court-leak/"
                 />
                 <Story
-                    image="Untitled (26).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="CharlieKirk.jpg"
+                    link="https://dailynexus.com/2023-03-01/students-protest-tpusa-founder-charlie-kirks-campus-visit/"
                 />
                 <Story
-                    image="Untitled (27).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="MissileBan.jpg"
+                    link="https://dailynexus.com/2022-04-19/vice-president-kamala-harris-visits-vandenberg-space-force-base-announces-u-s-anti-satellite-missile-test-ban/"
                 />
                 <Story
-                    image="Untitled (28).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="MungerMockup.jpg"
+                    link="https://dailynexus.com/2022-04-27/nexus-uncovers-ucsbs-munger-hall-mockup/"
                 />
                 <Story
-                    image="Untitled (29).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="MungerReport.jpg"
+                    link="https://dailynexus.com/2022-12-21/in-202-page-report-academic-senate-panel-excoriates-munger-hall-design-recommends-major-changes/"
                 />
                 <Story
-                    image="Untitled (30).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="NoDebtAct.jpg"
+                    link="https://dailynexus.com/2022-06-02/congressman-carbajal-unveils-updated-degrees-not-debt-act-addresses-school-shooting-in-uvalde-texas/"
                 />
             </div>
             <div className="Bylines">
-                <div className="Title">
-                    <hr />
-                    <h2>Bylines In</h2>
-                    <hr />
-                </div>
-                <div className="Cards">
-                    <Byline image="Frame 13.png" link="poop.com"></Byline>
-                    <Byline image="Frame 14.png" link="poop.com"></Byline>
-                    <Byline image="Frame 15.png" link="poop.com"></Byline>
-                </div>
-                <hr />
+                <BylineSection></BylineSection>
             </div>
             <div className="StorylineStories">
                 <Story
-                    image="Untitled (28).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="PrivateMillions.jpg"
+                    link="https://dailynexus.com/2023-01-26/private-millions-ucsbs-lifeline-against-a-stagnating-state-budget/"
                 />
                 <Story
-                    image="Untitled (29).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="ResearcherCharged.jpg"
+                    link="https://dailynexus.com/2022-09-29/on-leave-researcher-alleged-to-have-possessed-child-porn-worked-with-students-for-months-following-felony-charges/"
                 />
                 <Story
-                    image="Untitled (30).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="SnuClosed.jpg"
+                    link="https://dailynexus.com/2022-09-29/ucsb-sigma-nu-fraternity-closed-following-financial-delinquency-alcohol-violations-dishonesty-with-university-and-national-organization/"
                 />
                 <Storyline
                     image="https://dailynexus.s3.us-west-1.amazonaws.com/dailynexus/wp-content/uploads/2023/03/19165937/sam_campus-planning-design_current-projects_munger-hall-hero-image.jpg"
@@ -112,25 +102,41 @@ const App = () => {
                         </p>
                         <ul>
                             <li>
-                                <a href="poop.com">
+                                <a
+                                    href="poop.com"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
                                     Sustainable University Now to sue UCSB,
                                     seeking documents related to Munger Hall
                                 </a>
                             </li>
                             <li>
-                                <a href="poop.com">
+                                <a
+                                    href="poop.com"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
                                     Munger Hall design change eliminates two
                                     floors; awaits final approvals{" "}
                                 </a>
                             </li>
                             <li>
-                                <a href="poop.com">
+                                <a
+                                    href="poop.com"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
                                     Munger’s massive donation total continues to
                                     grow
                                 </a>
                             </li>
                             <li>
-                                <a href="poop.com">
+                                <a
+                                    href="poop.com"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                >
                                     Munger Hall Unlikely To Meet 2025 Opening
                                     Goal
                                 </a>
@@ -139,28 +145,28 @@ const App = () => {
                     </div>
                 </Storyline>
                 <Story
-                    image="Untitled (28).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="StrikeVote.jpg"
+                    link="https://dailynexus.com/2021-11-10/uc-lecturers-union-to-hold-strike-authorization-vote-over-alleged-unfair-labor-practices-committed-by-the-university-of-california/"
                 />
                 <Story
-                    image="Untitled (29).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="StudentArrested.jpg"
+                    link="https://dailynexus.com/2022-08-25/student-arrested-cameras-bathroom-charges-investigation/"
                 />
                 <Story
-                    image="Untitled (30).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="StudentHotels.jpg"
+                    link="https://dailynexus.com/2021-12-03/uncertainty-and-stress-is-the-norm-for-hundreds-of-students-living-in-hotels/"
                 />
                 <Story
-                    image="Untitled (28).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="TAStrike.jpg"
+                    link="https://dailynexus.com/2021-11-21/strike-averted-as-uc-lecturers-reach-historic-deal-securing-job-security-and-better-pay/"
                 />
                 <Story
-                    image="Untitled (29).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="UnionsRallying.jpg"
+                    link="https://dailynexus.com/2022-04-30/three-university-of-california-unions-rally-for-new-contracts/"
                 />
                 <Story
-                    image="Untitled (30).png"
-                    link="https://dailynexus.com/author/markalfred/"
+                    image="UnionsStriking.jpg"
+                    link="https://dailynexus.com/2022-11-05/three-uc-unions-ready-to-begin-strike-on-nov-14/"
                 />
             </div>
             <Footer />

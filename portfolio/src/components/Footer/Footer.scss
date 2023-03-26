@@ -56,3 +56,23 @@
         }
     }
 }
+
+@media (max-width: 800px) {
+    .Footer {
+        .Socials {
+            p {
+                display: none;
+            }
+            .Designed-By {
+                display: block;
+                font-size: 14px;
+            }
+            .img {
+                height: 14px;
+            }
+        }
+        p {
+            margin-top: 20px;
+        }
+    }
+}

@@ -124,3 +124,41 @@
         }
     }
 }
+@media (max-width: 585px) {
+    .Storyline {
+        .Series {
+            .Sub-Stories {
+                height: auto;
+                .Story {
+                    img {
+                        width: 100%;
+                    }
+                }
+                .Related-Coverage {
+                    height: 130px;
+                    overflow: scroll;
+                    align-self: stretch;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 499px) {
+    .Storyline {
+        .Series {
+            .Sub-Stories {
+                height: auto;
+                .Story {
+                    img {
+                        width: 100%;
+                    }
+                }
+                .Related-Coverage {
+                    height: 90px;
+                    overflow: scroll;
+                    align-self: stretch;
+                }
+            }
+        }
+    }
+}

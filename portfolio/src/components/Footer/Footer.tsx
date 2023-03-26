@@ -1,29 +1,41 @@
 import React from "react";
 import "./Footer.scss";
 
-import Instagram from "./../../assets/Instagram.png";
-import LinkedIn from "./../../assets/LinkedIn.png";
-import Twitter from "./../../assets/Twitter.png";
-import Share from "./../../assets/Share.png";
+import Instagram from "./../../assets/icons/Instagram.png";
+import LinkedIn from "./../../assets/icons/LinkedIn.png";
+import Twitter from "./../../assets/icons/Twitter.png";
+import Share from "./../../assets/icons/Share.png";
 
 export default function Footer() {
     return (
         <div className="Footer">
             <hr />
             <div className="Socials">
-                <a href="https://twitter.com/markaifred?s=21&t=27IEgTFPBb3UR2TK2kqtxw">
+                <a
+                    href="https://twitter.com/markaifred?s=21&t=27IEgTFPBb3UR2TK2kqtxw"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
                     <img src={Twitter} alt="" />
                     <p>Twitter</p>
                 </a>
-                <a href="https://instagram.com/mark_alfred_?igshid=YmMyMTA2M2Y=">
+                <a
+                    href="https://instagram.com/mark_alfred_?igshid=YmMyMTA2M2Y="
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
                     <img src={LinkedIn} alt="" />
                     <p>Instagram</p>
                 </a>
-                <a href="https://www.linkedin.com/in/mark-alfred">
+                <a
+                    href="https://www.linkedin.com/in/mark-alfred"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
                     <img src={Instagram} alt="" />
                     <p>LinkedIn</p>
                 </a>
-                <a href="">
+                <a href="FIXME.com" target="_blank" rel="noreferrer noopener">
                     <img src={Share} alt="" />
                     <p>Share</p>
                 </a>

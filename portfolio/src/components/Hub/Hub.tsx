@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CustomCarousel from "../Carousel/CustomCarousel";
+import CustomCarousel from "./Carousel/CustomCarousel";
 import "./Hub.scss";
 
 interface ImageObject {
@@ -17,7 +17,7 @@ const Hub = () => {
     const images: ImageObject[] = [
         {
             imageName: "_MG_0062.JPG",
-            title: "Air Force 1",
+            title: "Hello Hello",
         },
         {
             imageName: "_MG_0182.JPG",
@@ -77,7 +77,7 @@ const Hub = () => {
                 >
                     <p className="Hub-Tab">About</p>
                 </button>
-                <button
+                {/* <button
                     className={
                         toggleState === 3
                             ? "Hub-Button Hub-Button-Active"
@@ -86,7 +86,7 @@ const Hub = () => {
                     onClick={() => toggleTab(3)}
                 >
                     <p className="Hub-Tab">Contact</p>
-                </button>
+                </button> */}
             </div>
             <div
                 className={

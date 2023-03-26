@@ -10,8 +10,13 @@ const Story = (StoryProps: StoryProps) => {
     const { image, link } = StoryProps;
     return (
         <div className="Story">
-            <a className="Story" href={link}>
-                <img src={require(`../../assets/${image}`)} alt="" />
+            <a
+                className="Story"
+                href={link}
+                target="_blank"
+                rel="noreferrer noopener"
+            >
+                <img src={require(`../../assets/stories/${image}`)} alt="" />
             </a>
         </div>
     );

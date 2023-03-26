@@ -98,3 +98,30 @@
         }
     }
 }
+@media (max-width: 1200px) {
+    .Latest {
+        .Tab {
+            margin-left: 20px;
+        }
+        max-width: 700px;
+        width: 96vw;
+        height: auto;
+        padding: 0px 0px 20px 0px;
+        .Image {
+            width: 100%;
+            height: auto;
+        }
+        .Credit {
+            padding: 0px 20px 0px 20px;
+        }
+        .Snippet {
+            padding: 0px 20px 0px 20px;
+            max-width: 400px;
+            width: 100%;
+            margin: auto;
+            .Content {
+                height: fit-content;
+            }
+        }
+    }
+}
