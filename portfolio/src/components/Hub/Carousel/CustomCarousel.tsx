@@ -20,7 +20,7 @@ const CustomCarousel = (CustomCarouselProps: CustomCarouselProps) => {
                 <Carousel.Item interval={3000}>
                     <img
                         className="Image"
-                        src={require(`../../../assets/${image.imageName}`)}
+                        src={require(`../../../assets/gallery/${image.imageName}`)}
                         alt=""
                     />
                     <Carousel.Caption>
