@@ -35,10 +35,6 @@ export default function Footer() {
                     <img src={Instagram} alt="" />
                     <p>LinkedIn</p>
                 </a>
-                <a href="FIXME.com" target="_blank" rel="noreferrer noopener">
-                    <img src={Share} alt="" />
-                    <p>Share</p>
-                </a>
                 <p className="Designed-By">Designed by Mark Alfred</p>
             </div>
             <p>

@@ -17,6 +17,11 @@ const Hub = () => {
     const images: ImageObject[] = [
         {
             imageName:
+                "UCPD drives across the sidewalk in front of Storke Tower.JPG",
+            title: "UCPD drives across the sidewalk in front of Storke Tower",
+        },
+        {
+            imageName:
                 "A biker weaves through protestors at UC Santa Barbara.JPG",
             title: "A biker weaves through protestors at UC Santa Barbara",
         },
@@ -63,11 +68,6 @@ const Hub = () => {
             imageName:
                 "UC San Diego works to construct a slew of new student residences.JPG",
             title: "UC San Diego works to construct a slew of new student residences",
-        },
-        {
-            imageName:
-                "UCPD drives across the sidewalk in front of Storke Tower.JPG",
-            title: "UCPD drives across the sidewalk in front of Storke Tower",
         },
         {
             imageName:
