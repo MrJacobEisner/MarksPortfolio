@@ -24,7 +24,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noreferrer noopener"
                 >
-                    <img src={LinkedIn} alt="" />
+                    <img src={Instagram} alt="" />
                     <p>Instagram</p>
                 </a>
                 <a
@@ -32,7 +32,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noreferrer noopener"
                 >
-                    <img src={Instagram} alt="" />
+                    <img src={LinkedIn} alt="" />
                     <p>LinkedIn</p>
                 </a>
                 <p className="Designed-By">Designed by Mark Alfred</p>
