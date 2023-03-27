@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MarksPortfolio/static/css/main.8994ff69.css",
-    "main.js": "/MarksPortfolio/static/js/main.13712bbd.js",
+    "main.js": "/MarksPortfolio/static/js/main.98d8be45.js",
     "static/js/787.1ed0c42c.chunk.js": "/MarksPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/NASA’s Orion spacecraft arrives at San Diego after a 1.4 million mile journey around the moon.JPG": "/MarksPortfolio/static/media/NASA’s Orion spacecraft arrives at San Diego after a 1.4 million mile journey around the moon.d3866b5e60c5f8085acb.JPG",
     "static/media/UC San Diego works to construct a slew of new student residences.JPG": "/MarksPortfolio/static/media/UC San Diego works to construct a slew of new student residences.0bf293e6713b74709ae1.JPG",
@@ -45,11 +45,11 @@
     "static/media/Munger2.jpg": "/MarksPortfolio/static/media/Munger2.9591b9c29385b885f3c1.jpg",
     "index.html": "/MarksPortfolio/index.html",
     "main.8994ff69.css.map": "/MarksPortfolio/static/css/main.8994ff69.css.map",
-    "main.13712bbd.js.map": "/MarksPortfolio/static/js/main.13712bbd.js.map",
+    "main.98d8be45.js.map": "/MarksPortfolio/static/js/main.98d8be45.js.map",
     "787.1ed0c42c.chunk.js.map": "/MarksPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8994ff69.css",
-    "static/js/main.13712bbd.js"
+    "static/js/main.98d8be45.js"
   ]
 }
