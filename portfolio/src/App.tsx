@@ -18,7 +18,7 @@ const App = () => {
             <div className="Hero">
                 <Latest
                     image="NativeRemains.jpg"
-                    creditName="Mark Alfred / Daily Nexus"
+                    creditName="Joshua Yepez Martinez / Daily Nexus"
                     header="UCSB out of compliance with state, federal laws for decades; works to return Native remains"
                     content="When the state of California constructs another orbital launch pad for its Space Force Base or a new railway along the coast, it often unearths artifacts and human remains left behind by California’s Indigenous peoples. Since the 1950s, such objects frequently "
                     articleLink="https://dailynexus.com/2023-03-02/ucsb-out-of-compliance-with-state-federal-laws-for-decades-works-to-return-native-remains/"
