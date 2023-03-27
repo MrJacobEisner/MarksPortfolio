@@ -77,24 +77,24 @@ const App = () => {
                     author="Mark Alfred"
                 >
                     <Story
-                        image="Frame 27.png"
-                        link="https://dailynexus.com/author/markalfred/"
+                        image="Munger1.jpg"
+                        link="https://dailynexus.com/2022-11-03/nexus-explained-munger-hall/"
                     />
                     <Story
-                        image="Frame 27.png"
-                        link="https://dailynexus.com/author/markalfred/"
+                        image="Munger2.jpg"
+                        link="https://dailynexus.com/2022-04-27/nexus-uncovers-ucsbs-munger-hall-mockup/"
                     />
                     <Story
-                        image="Frame 27.png"
-                        link="https://dailynexus.com/author/markalfred/"
+                        image="Munger3.jpg"
+                        link="https://dailynexus.com/2022-11-23/university-scrapped-decades-old-housing-plans-for-munger-hall-documents-reveal/"
                     />
                     <Story
-                        image="Frame 27.png"
-                        link="https://dailynexus.com/author/markalfred/"
+                        image="Munger4.jpg"
+                        link="https://dailynexus.com/2022-07-27/secret-ucsb-tours-munger-hall-mock/"
                     />
                     <Story
-                        image="Frame 27.png"
-                        link="https://dailynexus.com/author/markalfred/"
+                        image="Munger5.jpg"
+                        link="https://dailynexus.com/2022-11-23/university-scrapped-decades-old-housing-plans-for-munger-hall-documents-reveal/"
                     />
                     <div className="Related-Coverage">
                         <p>
