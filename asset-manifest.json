@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MarksPortfolio/static/css/main.8994ff69.css",
-    "main.js": "/MarksPortfolio/static/js/main.3cd14371.js",
+    "main.js": "/MarksPortfolio/static/js/main.13712bbd.js",
     "static/js/787.1ed0c42c.chunk.js": "/MarksPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/NASA’s Orion spacecraft arrives at San Diego after a 1.4 million mile journey around the moon.JPG": "/MarksPortfolio/static/media/NASA’s Orion spacecraft arrives at San Diego after a 1.4 million mile journey around the moon.d3866b5e60c5f8085acb.JPG",
     "static/media/UC San Diego works to construct a slew of new student residences.JPG": "/MarksPortfolio/static/media/UC San Diego works to construct a slew of new student residences.0bf293e6713b74709ae1.JPG",
@@ -15,7 +15,7 @@
     "static/media/SpaceX’s Falcon 9 rocket launches from Vandenberg Space Force Base.JPG": "/MarksPortfolio/static/media/SpaceX’s Falcon 9 rocket launches from Vandenberg Space Force Base.65bb23ac1365e68104da.JPG",
     "static/media/Congressman Carbajal announces new legislation at UC Santa Barbara.JPG": "/MarksPortfolio/static/media/Congressman Carbajal announces new legislation at UC Santa Barbara.95c9254543bd2506e427.JPG",
     "static/media/StudentHotels.jpg": "/MarksPortfolio/static/media/StudentHotels.e4c3b789c19f7d9f874f.jpg",
-    "static/media/SnuClosed.jpg": "/MarksPortfolio/static/media/SnuClosed.0a51e71f40a18ea25b31.jpg",
+    "static/media/SnuClosed.jpg": "/MarksPortfolio/static/media/SnuClosed.65c5b0eabb785a83bf08.jpg",
     "static/media/CharlieKirk.jpg": "/MarksPortfolio/static/media/CharlieKirk.0ffd87142924638b7e3f.jpg",
     "static/media/PrivateMillions.jpg": "/MarksPortfolio/static/media/PrivateMillions.808769af3cc56766aeb2.jpg",
     "static/media/Wingstop.jpg": "/MarksPortfolio/static/media/Wingstop.753f2d787ee56e326ceb.jpg",
@@ -45,11 +45,11 @@
     "static/media/Munger2.jpg": "/MarksPortfolio/static/media/Munger2.9591b9c29385b885f3c1.jpg",
     "index.html": "/MarksPortfolio/index.html",
     "main.8994ff69.css.map": "/MarksPortfolio/static/css/main.8994ff69.css.map",
-    "main.3cd14371.js.map": "/MarksPortfolio/static/js/main.3cd14371.js.map",
+    "main.13712bbd.js.map": "/MarksPortfolio/static/js/main.13712bbd.js.map",
     "787.1ed0c42c.chunk.js.map": "/MarksPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8994ff69.css",
-    "static/js/main.3cd14371.js"
+    "static/js/main.13712bbd.js"
   ]
 }
