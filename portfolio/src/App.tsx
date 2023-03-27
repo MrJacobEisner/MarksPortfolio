@@ -103,7 +103,7 @@ const App = () => {
                         <ul>
                             <li>
                                 <a
-                                    href="poop.com"
+                                    href="https://dailynexus.com/2022-11-04/sustainable-university-now-to-sue-ucsb-seeking-documents-related-to-munger-hall/"
                                     target="_blank"
                                     rel="noreferrer noopener"
                                 >
@@ -113,7 +113,7 @@ const App = () => {
                             </li>
                             <li>
                                 <a
-                                    href="poop.com"
+                                    href="https://dailynexus.com/2022-10-06/munger-hall-design-change-eliminates-two-floors-awaits-final-approvals/"
                                     target="_blank"
                                     rel="noreferrer noopener"
                                 >
@@ -123,7 +123,7 @@ const App = () => {
                             </li>
                             <li>
                                 <a
-                                    href="poop.com"
+                                    href="https://dailynexus.com/2023-02-17/mungers-massive-donation-total-continues-to-grow/"
                                     target="_blank"
                                     rel="noreferrer noopener"
                                 >
@@ -133,7 +133,7 @@ const App = () => {
                             </li>
                             <li>
                                 <a
-                                    href="poop.com"
+                                    href="https://dailynexus.com/2022-07-07/munger-hall-unlikely-meet-2025-goal/"
                                     target="_blank"
                                     rel="noreferrer noopener"
                                 >
