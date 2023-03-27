@@ -1,0 +1,24 @@
+.Story {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        transition: all 0.5s;
+        height: 100%;
+    }
+}
+.Story:hover {
+    img {
+        height: 101%;
+        filter: brightness(110%);
+    }
+}
+.Story:focus {
+    img {
+        height: 101%;
+        filter: brightness(110%);
+    }
+}

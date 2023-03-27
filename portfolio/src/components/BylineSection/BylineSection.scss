@@ -1,0 +1,71 @@
+.BylineSection {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 50px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 1;
+    .Title {
+        width: 96vw;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            font-family: "Georgia";
+            font-style: italic;
+            font-weight: 700;
+            font-size: 29px;
+            line-height: 29px;
+            color: #000000;
+            margin-bottom: 0px;
+            white-space: nowrap;
+        }
+    }
+    .Bylines {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3%;
+        width: 100%;
+        overflow-x: scroll;
+        padding: 2vw;
+    }
+    hr {
+        max-width: 250px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        height: 1.5px;
+    }
+}
+
+@media (max-width: 945px) {
+    .BylineSection {
+        gap: 0px;
+        margin: 30px 0px 30px 0px;
+        .Title {
+            gap: 2vw;
+            h2 {
+                font-size: 20px;
+                color: #363636;
+            }
+            hr {
+                max-width: 215px;
+            }
+        }
+        .Bylines {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+}
+@media (max-width: 1230px) {
+    .BylineSection {
+        .Bylines {
+            justify-content: left;
+            gap: 3%;
+        }
+    }
+}

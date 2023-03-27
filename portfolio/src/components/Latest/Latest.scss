@@ -1,0 +1,127 @@
+.Latest {
+    width: 300px;
+    height: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    .Tab {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        .News {
+            font-family: "Lexend";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            color: #000000;
+            margin: 0px;
+        }
+    }
+    .Image {
+        height: 250px;
+        position: relative;
+        align-self: center;
+    }
+    .Credit {
+        display: flex;
+        margin-left: auto;
+        p {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            color: rgba(106, 106, 106, 0.88);
+            text-decoration: none;
+            margin-bottom: 0px;
+        }
+    }
+    .Snippet {
+        .Latest-Header {
+            font-family: "Georgia";
+            font-style: italic;
+            font-weight: 700;
+            font-size: 20px;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        .Author {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-bottom: 2px;
+            .Author-Image {
+                height: 30px;
+                width: 30px;
+                border-radius: 30px;
+                filter: saturate(0);
+            }
+            p,
+            a {
+                font-family: "Georgia";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #000000;
+            }
+        }
+        .Content {
+            height: 100px;
+            p {
+                font-family: "Georgia";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 17px;
+                color: #000000;
+                margin-bottom: 0px;
+                display: -webkit-box;
+                -webkit-line-clamp: 6;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+        .Read-More {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            color: rgba(23, 47, 255, 0.88);
+            text-decoration: none;
+            margin-top: auto;
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .Latest {
+        .Tab {
+            margin-left: 20px;
+        }
+        max-width: 700px;
+        width: 96vw;
+        height: auto;
+        padding: 0px 0px 20px 0px;
+        .Image {
+            width: 100%;
+            height: auto;
+        }
+        .Credit {
+            padding: 0px 20px 0px 20px;
+        }
+        .Snippet {
+            padding: 0px 20px 0px 20px;
+            max-width: 400px;
+            width: 100%;
+            margin: auto;
+            .Content {
+                height: fit-content;
+            }
+        }
+    }
+}
