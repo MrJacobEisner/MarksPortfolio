@@ -79,64 +79,54 @@ const Hub = () => {
 
     return (
         <div className="Hub">
-            <div className="Hub-TabBar">
+            <div className="TabBar">
                 <button
                     className={
-                        toggleState === 1
-                            ? "Hub-Button Hub-Button-Active"
-                            : "Hub-Button"
+                        toggleState === 1 ? "Button Button-Active" : "Button"
                     }
                     onClick={() => toggleTab(1)}
                 >
-                    <p className="Hub-Tab">Gallery</p>
+                    <p className="Tab">Gallery</p>
                 </button>
                 <button
                     className={
-                        toggleState === 2
-                            ? "Hub-Button Hub-Button-Active"
-                            : "Hub-Button"
+                        toggleState === 2 ? "Button Button-Active" : "Button"
                     }
                     onClick={() => toggleTab(2)}
                 >
-                    <p className="Hub-Tab">About</p>
+                    <p className="Tab">About</p>
                 </button>
                 {/* <button
                     className={
                         toggleState === 3
-                            ? "Hub-Button Hub-Button-Active"
-                            : "Hub-Button"
+                            ? "Button Button-Active"
+                            : "Button"
                     }
                     onClick={() => toggleTab(3)}
                 >
-                    <p className="Hub-Tab">Contact</p>
+                    <p className="Tab">Contact</p>
                 </button> */}
             </div>
-            <div
-                className={
-                    toggleState === 1 ? "Hub-Page Hub-Page-Active" : "Hub-Page"
-                }
-            >
+            <div className={toggleState === 1 ? "Page Page-Active" : "Page"}>
                 <CustomCarousel images={images} />
             </div>
-            <div
-                className={
-                    toggleState === 2 ? "Hub-Page Hub-Page-Active" : "Hub-Page"
-                }
-            >
+            <div className={toggleState === 2 ? "Page Page-Active" : "Page"}>
                 <div className="About">
                     <div className="Info">
                         <img
-                            className="Hub-Mark"
-                            src={require(`../../assets/MarkProfile.jpg`)}
+                            className="Mark"
+                            src={require(`../../assets/other/MarkProfile.jpg`)}
                             alt=""
                         />
-                        <p>
-                            Reach out at: <br />{" "}
-                            <b>Markalfred@dailynexus.com</b>
-                        </p>
-                        <p>
-                            Text and Signal: <br /> <b>(858) 413-7384</b>
-                        </p>
+                        <div className="Contact">
+                            <p>
+                                Reach out at: <br />{" "}
+                                <b>Markalfred@dailynexus.com</b>
+                            </p>
+                            <p>
+                                Text and Signal: <br /> <b>(858) 413-7384</b>
+                            </p>
+                        </div>
                     </div>
                     <div className="Bio">
                         <p>
@@ -173,9 +163,7 @@ const Hub = () => {
                 </div>
             </div>
             <div
-                className={
-                    toggleState === 3 ? "Hub-Page Hub-Page-Active" : "Hub-Page"
-                }
+                className={toggleState === 3 ? "Page Page-Active" : "Page"}
             ></div>
         </div>
     );
