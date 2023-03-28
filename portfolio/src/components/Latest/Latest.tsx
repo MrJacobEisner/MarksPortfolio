@@ -48,7 +48,7 @@ const Latest = (LatestProps: LatestProps) => {
                 <div className="Author">
                     <img
                         className="Author-Image"
-                        src={require(`../../assets/${authorImage}`)}
+                        src={require(`../../assets/other/${authorImage}`)}
                         alt=""
                     />
                     <p>
