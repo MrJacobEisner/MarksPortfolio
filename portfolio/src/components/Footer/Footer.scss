@@ -23,9 +23,10 @@
             display: flex;
             flex-direction: row;
             text-decoration: none;
-            align-items: center;
+            align-items: start;
             gap: 3px;
             img {
+                margin-top: 2px;
                 height: 20px;
             }
         }
