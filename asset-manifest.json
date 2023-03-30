@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.78ccf4c8.css",
-    "main.js": "/static/js/main.2d7ed8ff.js",
+    "main.css": "/static/css/main.97ac3bff.css",
+    "main.js": "/static/js/main.6ff188dd.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/President Biden announces a plan to share nuclear-powered submarine technology with Australia.JPG": "/static/media/President Biden announces a plan to share nuclear-powered submarine technology with Australia.b5bd08aeefce6bc8e4ed.JPG",
     "static/media/NASA’s Orion spacecraft arrives at San Diego after a 1.4 million mile journey around the moon.JPG": "/static/media/NASA’s Orion spacecraft arrives at San Diego after a 1.4 million mile journey around the moon.d3866b5e60c5f8085acb.JPG",
     "static/media/UC San Diego works to construct a slew of new student residences.JPG": "/static/media/UC San Diego works to construct a slew of new student residences.0bf293e6713b74709ae1.JPG",
     "static/media/Background.png": "/static/media/Background.c63853bc372f9d112765.png",
@@ -21,6 +22,7 @@
     "static/media/PrivateMillions.jpg": "/static/media/PrivateMillions.808769af3cc56766aeb2.jpg",
     "static/media/Wingstop.jpg": "/static/media/Wingstop.753f2d787ee56e326ceb.jpg",
     "static/media/Yangtopia.jpg": "/static/media/Yangtopia.52e8e76b468d86835f3a.jpg",
+    "static/media/Caroline Kennedy stands besides representatives Joe Courtney and Sara Jacobs.JPG": "/static/media/Caroline Kennedy stands besides representatives Joe Courtney and Sara Jacobs.66d7ad11f689b4c73d9a.JPG",
     "static/media/TPUCSB.jpg": "/static/media/TPUCSB.91c31ffe360111b7a00e.jpg",
     "static/media/StrikeVote.jpg": "/static/media/StrikeVote.3ca1370022c5a3857c4b.jpg",
     "static/media/ResearcherCharged.jpg": "/static/media/ResearcherCharged.ff90606c21daf1cfc4cc.jpg",
@@ -45,12 +47,12 @@
     "static/media/Munger3.jpg": "/static/media/Munger3.7d6a5db3c08f818c1b46.jpg",
     "static/media/Munger2.jpg": "/static/media/Munger2.9591b9c29385b885f3c1.jpg",
     "index.html": "/index.html",
-    "main.78ccf4c8.css.map": "/static/css/main.78ccf4c8.css.map",
-    "main.2d7ed8ff.js.map": "/static/js/main.2d7ed8ff.js.map",
+    "main.97ac3bff.css.map": "/static/css/main.97ac3bff.css.map",
+    "main.6ff188dd.js.map": "/static/js/main.6ff188dd.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78ccf4c8.css",
-    "static/js/main.2d7ed8ff.js"
+    "static/css/main.97ac3bff.css",
+    "static/js/main.6ff188dd.js"
   ]
 }
