@@ -86,7 +86,7 @@ const Hub = () => {
                     }
                     onClick={() => toggleTab(1)}
                 >
-                    <p className="Tab">Gallery</p>
+                    <p className="Tab">Photo Gallery</p>
                 </button>
                 <button
                     className={
@@ -94,7 +94,7 @@ const Hub = () => {
                     }
                     onClick={() => toggleTab(2)}
                 >
-                    <p className="Tab">About</p>
+                    <p className="Tab">About & Contact</p>
                 </button>
                 {/* <button
                     className={
