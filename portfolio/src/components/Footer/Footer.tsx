@@ -35,7 +35,10 @@ export default function Footer() {
                     <img src={LinkedIn} alt="" />
                     <p>LinkedIn</p>
                 </a>
-                <p className="Designed-By">Designed by Mark Alfred</p>
+                <div className="Designed-By">
+                    <p className="Designed-By">Designed by Mark Alfred</p>
+                    <p className="Designed-By">Developed by Jacob Eisner</p>
+                </div>
             </div>
             <p>
                 <span className="C">C</span>

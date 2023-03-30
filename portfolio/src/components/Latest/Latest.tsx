@@ -33,7 +33,7 @@ const Latest = (LatestProps: LatestProps) => {
     return (
         <div className="Latest">
             <div className="Tab">
-                <p className="News">Latest News</p>
+                <p className="News">Featured News</p>
             </div>
             <img
                 className="Image"
