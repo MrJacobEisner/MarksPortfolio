@@ -93,6 +93,14 @@
 }
 @media (max-width: 715px) {
     .Hub {
+        .TabBar {
+            .Button {
+                p {
+                    font-size: 14px;
+                    line-height: 15px;
+                }
+            }
+        }
         .About {
             flex-direction: column;
             overflow-y: scroll;
