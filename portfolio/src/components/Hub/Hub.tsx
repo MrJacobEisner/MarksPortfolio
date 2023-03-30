@@ -17,6 +17,11 @@ const Hub = () => {
     const images: ImageObject[] = [
         {
             imageName:
+                "President Biden announces a plan to share nuclear-powered submarine technology with Australia.JPG",
+            title: "President Biden announces a plan to share nuclear-powered submarine technology with Australia",
+        },
+        {
+            imageName:
                 "UCPD drives across the sidewalk in front of Storke Tower.JPG",
             title: "UCPD drives across the sidewalk in front of Storke Tower",
         },
@@ -73,6 +78,11 @@ const Hub = () => {
             imageName:
                 "Vice President Kamala Harris shoots a smile toward the press pool.JPG",
             title: "Vice President Kamala Harris shoots a smile toward the press pool",
+        },
+        {
+            imageName:
+                "Caroline Kennedy stands besides representatives Joe Courtney and Sara Jacobs.JPG",
+            title: "Caroline Kennedy stands besides representatives Joe Courtney and Sara Jacobs",
         },
         // ...
     ];
