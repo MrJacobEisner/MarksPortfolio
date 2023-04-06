@@ -94,12 +94,13 @@
             display: grid;
             grid-template-rows: 1fr 1fr 1fr;
             grid-template-columns: 1fr 1fr;
-            grid-gap: 20px;
+            grid-gap: 10px;
             flex-grow: 1;
             width: 100%;
             align-items: center;
             height: 10px;
             .Related-Coverage {
+                align-self: start;
                 p {
                     font-family: "Lexend";
                     font-style: normal;
@@ -141,8 +142,7 @@
                 }
                 .Related-Coverage {
                     height: 130px;
-                    overflow: scroll;
-                    align-self: stretch;
+                    overflow-y: scroll;
                 }
             }
         }
@@ -160,8 +160,6 @@
                 }
                 .Related-Coverage {
                     height: 90px;
-                    overflow: scroll;
-                    align-self: stretch;
                 }
             }
         }
