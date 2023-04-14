@@ -118,7 +118,7 @@ const App = () => {
                                     rel="noreferrer noopener"
                                 >
                                     Munger Hall design change eliminates two
-                                    floors; awaits final approvals{" "}
+                                    floors; awaits final approvals
                                 </a>
                             </li>
                             <li>
