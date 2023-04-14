@@ -4,7 +4,7 @@ import "./Headline.scss";
 export default function Headline() {
     const date = new Date();
     const options: Intl.DateTimeFormatOptions = {
-        weekday: "long",
+        weekday: "short",
         month: "long",
         day: "numeric",
     };
@@ -16,7 +16,7 @@ export default function Headline() {
                 Designed by Mark Alfred & Developed by Jacob Eisner
             </p>
             <div className="Title">
-                <p className="Breaking-News">Breaking News:</p>
+                <p className="Breaking-News">Breaking</p>
                 <h1 className="Mark-Alfred">
                     <span>M</span>ARK <span>A</span>LFRED
                 </h1>
