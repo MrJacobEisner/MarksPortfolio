@@ -12,7 +12,7 @@ export default function Footer() {
             <hr />
             <div className="Socials">
                 <a
-                    href="https://twitter.com/markaifred?s=21&t=27IEgTFPBb3UR2TK2kqtxw"
+                    href="https://twitter.com/byMarkAlfred?s=21&t=27IEgTFPBb3UR2TK2kqtxw"
                     target="_blank"
                     rel="noreferrer noopener"
                 >
