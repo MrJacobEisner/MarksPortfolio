@@ -22,7 +22,6 @@ const CustomCarousel = (CustomCarouselProps: CustomCarouselProps) => {
                         className="Image"
                         src={require(`../../../assets/gallery/${image.imageName}`)}
                         alt=""
-                        loading="lazy"
                     />
                     <Carousel.Caption>
                         <div className="Caption-Wrapper">
