@@ -127,6 +127,7 @@ const Hub = () => {
                             className="Mark"
                             src={require(`../../assets/other/MarkProfile.jpg`)}
                             alt=""
+                            loading="lazy"
                         />
                         <div className="Contact">
                             <p>

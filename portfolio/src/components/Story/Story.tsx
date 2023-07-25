@@ -16,7 +16,11 @@ const Story = (StoryProps: StoryProps) => {
                 target="_blank"
                 rel="noreferrer noopener"
             >
-                <img src={require(`../../assets/stories/${image}`)} alt="" />
+                <img
+                    src={require(`../../assets/stories/${image}`)}
+                    alt=""
+                    loading="lazy"
+                />
             </a>
         </div>
     );

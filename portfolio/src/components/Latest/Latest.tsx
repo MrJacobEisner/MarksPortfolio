@@ -39,6 +39,7 @@ const Latest = (LatestProps: LatestProps) => {
                 className="Image"
                 src={require(`../../assets/latest/${image}`)}
                 alt=""
+                loading="lazy"
             />
             <div className="Credit">
                 <p>{creditName}</p>
@@ -50,6 +51,7 @@ const Latest = (LatestProps: LatestProps) => {
                         className="Author-Image"
                         src={require(`../../assets/other/${authorImage}`)}
                         alt=""
+                        loading="lazy"
                     />
                     <p>
                         By{" "}
